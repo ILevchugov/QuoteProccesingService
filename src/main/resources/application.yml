@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/quotes
+    username: postgres
+    password: postgres
+thread-pool:
+  corePoolSize: 4
+  maxPoolSize: 8
+  queueCapacity: 100

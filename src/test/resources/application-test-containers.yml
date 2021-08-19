@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver
+    url: jdbc:tc:postgresql:11-alpine://localhost:5432/quotes
+    username: postgres
+    password: postgres
+thread-pool:
+  corePoolSize: 4
+  maxPoolSize: 8
+  queueCapacity: 100
